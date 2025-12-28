@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: opensans;
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(./OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+
+    nav{
+        display: flex;
+        gap: 1rem;
+        a{
+            text-decoration: none;
+            font-weight: 700;
+            color: black;
+        }
+    }
+}
+
+
+#section1{
+    background-color: #f1bb13;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    img{
+        width: 50%;
+    }
+    a{
+        color: #34365a;
+    }
+    p{
+        padding-top: 1rem;
+        font-size: 1rem;
+        a{
+            color: black;
+            font-size: 1rem;
+        }
+    }
+    button{
+        margin: 1rem;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        background-color: #34365a;
+        color: white;
+        font-weight: 600;
+        button&:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        } 
+    }
+}
+
+#section2{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 70%;
+        .upper{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+            h2{
+                font-weight: 900;
+                font-size: 2rem;
+            }
+        }
+        .lower{
+            display: flex;
+            flex-wrap: wrap;
+            .son{
+                width: 50%;
+                background-color: yellow;
+                background-size: cover;
+            }
+            .yellow{
+                background-color: #f1bb13;
+            }
+            .blue{
+                background-color: #34365a;
+            }
+            .box2{
+                padding: 2rem;
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                h2{
+                    font-weight: 700;
+                    font-size: 2rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+                button{
+                    width: 40%;
+                    padding: 1rem 2rem;
+                    border-radius: 1rem;
+                    background-color: #34365a;
+                    color: white;
+                    font-weight: 600;
+                    button&:hover{
+                        background-color: white;
+                        color: black;
+                        cursor: pointer;
+                    } 
+                }
+            }
+            .box3{
+                padding: 2rem;
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                
+                gap: 2rem;
+                h2{
+                    font-weight: 700;
+                    font-size: 2rem;
+                    color: white;
+                }
+                p{
+                    font-size: 1rem;
+                    color: white;
+                }
+                button{
+                    width: 40%;
+                    padding: 1rem 2rem;
+                    border-radius: 1rem;
+                    background-color: #34365a;
+                    color: white;
+                    font-weight: 600;
+                    button&:hover{
+                        background-color: white;
+                        color: black;
+                        cursor: pointer;
+                    } 
+                }
+            }
+            .box6{
+                padding: 2rem;
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                h2{
+                    font-weight: 700;
+                    font-size: 2rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+                button{
+                    width: 40%;
+                    padding: 1rem 2rem;
+                    border-radius: 1rem;
+                    background-color: #34365a;
+                    color: white;
+                    font-weight: 600;
+                    button&:hover{
+                        background-color: white;
+                        color: black;
+                        cursor: pointer;
+                    } 
+                }
+            }    
+        }
+    }
+}
+
+
+
+#section3{
+    width: 100%;
+    height: 60vh;
+    background-color: #34365a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+
